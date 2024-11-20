@@ -1,6 +1,6 @@
 const rules = [
 {
-  "id": "9dm_redirect_1",
+  "id": 956,
   "priority": 1,
   "action": {
     "type": "redirect",
@@ -16,6 +16,6 @@ const rules = [
   ];
   
   chrome.declarativeNetRequest.updateDynamicRules({
-    removeRuleIds: ["9dm_redirect_1"],
+    removeRuleIds: [956],
     addRules: rules,
   }, function(){});
